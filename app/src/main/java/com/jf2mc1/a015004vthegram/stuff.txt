@@ -1,0 +1,13 @@
+
+
+Add this code to the dependencies block of your build.gradle file:
+implementation 'com.google.android.material:material:1.2.0-alpha06'
+
+For the AppBarLayout you should use:
+<com.google.android.material.appbar.AppBarLayout/>
+
+and for TabLayout you should use:
+<com.google.android.material.tabs.TabLayout/>
+
+For the Toolbar you should use this androidx library:
+<androidx.appcompat.widget.Toolbar/>

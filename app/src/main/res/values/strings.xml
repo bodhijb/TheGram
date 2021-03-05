@@ -4,5 +4,7 @@
     <string name="APP_ID">JckzenfZ527p7McTlQD9e4bJAvW3u0y8UkiNFnuP</string>
     <string name="CLIENT_KEY">PdlmcuwtELMuJy5bbo1xAZMsTLgmTl5juMB6Fex2</string>
     <string name="SERVER">The Gram</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
