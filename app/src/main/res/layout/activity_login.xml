@@ -5,6 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/primaryLightColor"
+    android:id="@+id/con_li_layout"
+    android:onClick="loginRootLayoutTapped"
     tools:context=".LoginActivity">
 
     <ImageView
@@ -19,7 +21,7 @@
         android:scaleType="fitCenter"/>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/til_li_uname"
+        android:id="@+id/til_li_email"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
@@ -31,13 +33,13 @@
         app:passwordToggleEnabled="false">
 
         <EditText
-            android:id="@+id/edt_li_uname"
+            android:id="@+id/edt_li_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/primaryLightColor"
             android:ems="10"
-            android:hint="Enter username:"
-            android:inputType="textPersonName"
+            android:hint="Enter email:"
+            android:inputType="textEmailAddress"
             android:textColor="@color/white"/>
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -50,7 +52,7 @@
         android:layout_marginEnd="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/til_li_uname"
+        app:layout_constraintTop_toBottomOf="@id/til_li_email"
         app:passwordToggleEnabled="true">
 
         <EditText
