@@ -2,6 +2,7 @@ package com.jf2mc1.a015004vthegram;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
@@ -75,12 +76,13 @@ View.OnClickListener {
                     "Email & password is required :(",
                     FancyToast.LENGTH_LONG, FancyToast.ERROR, true).show();
         } else {
-
+            Log.i("LOGINX", "in logInUser, else1");
             ParseUser.logInInBackground(edtLIEmail.getText().toString(),
                     edtLIPassword.getText().toString(), new LogInCallback() {
                         @Override
                         public void done(ParseUser user, ParseException e) {
                             if (user != null && e == null) {
+                                Log.i("LOGINX", "in logInUser, else2");
                                 FancyToast.makeText(LoginActivity.this,
                                         user.getUsername() + " is logged in :)",
                                         FancyToast.LENGTH_LONG, FancyToast.SUCCESS, true).show();

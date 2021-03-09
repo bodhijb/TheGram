@@ -14,11 +14,12 @@
     <color name="yellowLightColor">#ffff56</color>
     <color name="yellowDarkColor">#ffab00</color>
     <color name="yellowCompl">#ffd54f</color>
-    <color name="tabAColor">#ffcdd2</color>
-    <color name="tabBColor">#c8e6c9</color>
-    <color name="tabCColor">#cfd8dc</color>
+    <color name="tabAColor">#cfd8dc</color>
+    <color name="tabBColor">#b0bec5</color>
+    <color name="tabCColor">#90a4ae</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="social_text_color">#260e04</color>
+    <color name="social_text_color_light">#6d4c41</color>
 
 </resources>
